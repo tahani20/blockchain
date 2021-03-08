@@ -1,0 +1,106 @@
+PS C:\Users\User\Desktop\week6> truffle develop
+Truffle Develop started at http://127.0.0.1:9545/
+
+Accounts:
+(0) 0x8870224161adde19fbf276f0f07c7ee91ac9f720
+(1) 0x64036016833df97a255355b114d9bd96c8b12629
+(2) 0x724a8cfdabf7cb7ef83871d2da443354509b3664
+(3) 0xa95adf67bedf748e0f3d004f61c3315a3a2bae29
+(4) 0x65a5d720eddb296c37f29118f9d9a49a189d0c78
+(5) 0x097125e174254e191799fa02f9d5a77bd67fcf0b
+(6) 0x76f4f35cc26130b193ee7d5d152e82b17bb9f876
+(7) 0xeb20b54e768e0f33fd10be447b6e40ba7e9347e8
+(8) 0x573a1ecd6801d5f451a7c106575828c155e63c2c
+(9) 0xb4da8b6c92e4dc7f6da8d35a35f8398377e37c83
+
+Private Keys:
+(0) fa6ede7cd82ea60f72c3b407eeb71626a186a1cca4559f4910f664faeed35a60
+(1) a4fe09ad6548e4783bf05d71aab392244bc4df70e4209a921f0f3129ae1e7db5
+(2) df3cfc7767d911712592131be035b03ca5e1bd88443039cfc5151fcbe6b8612f
+(3) 1a1bb8d72aca554e1bd63fa89d4f260dcb530aa31da0d3944c9d03239cf6239c
+(4) 572ec54c7bbf9f9fe402e5760e19c75780eeec7a247cc6a94682dddf73eba53e
+(5) 0d541b7b8769f16efb41ef2c3aa1b9d973a8c7c793b352db111b616295851bb4
+(6) 684bdc593925e3f24e84bd5421e529140600935d823dac3e7ad1999c15a9d132
+(7) 3a5889314d8f9228e61ffb4542930a72155ddf20f58c310bf8fa432b10d6f764
+(8) 5f228f00eead5ded2920906cecaed598cec4656acfd937691e0ca5caa07ae81f
+(9) e2aee6f9b8386418763f088357f68d036881c7c8ad9631a33ad25f336e4dcb91
+
+Mnemonic: pole copy penalty frozen frog cereal piano spoil rigid talent argue uphold
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+
+truffle(develop)> migrate --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x435f1589c340fdd3acc9ca9db5da5b5182a5beca72f284d419c0afbd20eb92d5
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x41459aDB5942F9de579a225eAdF50373b405ae64
+   > block number:        3
+   > block timestamp:     1615230029
+   > account:             0x8870224161aDDe19FbF276f0F07c7ee91Ac9f720
+   > balance:             99.99167622
+   > gas used:            186927 (0x2da2f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00373854 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00373854 ETH
+
+
+2_initial_Insu.js
+=================
+
+   Deploying 'TechInsurance'
+   -------------------------
+   > transaction hash:    0xc71539685648f632767cc302bb6d3ad65b79b4b0a069188fc691bc2a165f6c5e
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xEf696b6E02D7dAC83d5300B19C97aef20Eb169C8
+   > block number:        5
+   > block timestamp:     1615230032
+   > account:             0x8870224161aDDe19FbF276f0F07c7ee91Ac9f720
+   > balance:             99.96744568
+   > gas used:            1169192 (0x11d728)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02338384 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02338384 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02712238 ETH
+
+
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
