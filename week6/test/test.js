@@ -1,11 +1,23 @@
-const Insurance = artifacts.require("Insurance");
+const TechInsurance = artifacts.require("./TechInsurance");
 
-contract("Insurance", async function(accounts){
 
-it (
-    "should add a product", async function(){
-        //let Product ID = 1;
-        let instance = await Insurance.deployed()
-        await instance.addProduct(1,"iphone",web3.utils.toWei('7', 'ether')) });
+
+contract("TechInsurance", async function(accounts){
+
+    it(
+        "should add a procut", async function(){
+             //let carId = 1; 9000000000000000000
+             let instance = await TechInsurance.deployed()
+             await instance.addProduct("Microsoft", 2020, web3.utils.toWei('7', 'ether'), {from: accounts[0]});
+    });
+
+    it(
+        " check it is not offered", async function(){
+            // let carId = 1; 9000000000000000000
+            let instance = await TechInsurance.deployed()
+            await instance.addCar("Iphone", 2020, web3.utils.toWei('7', 'ether'), {from: accounts[0]});
+            let getProduct = await instance.changeFalse(1); 
+    });
+
 
 });
