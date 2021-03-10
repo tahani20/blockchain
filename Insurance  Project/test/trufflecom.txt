@@ -1,0 +1,9 @@
+truffle compile 
+    truffle compile --all
+    truffle compile --list
+    truffle migrate
+    truffle console
+        migrate --reset
+
+    truffle migrate --reset
+    truffle develop
