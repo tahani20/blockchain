@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MetaCoin ~ Tahani's Demo </title>
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+  <style>
+      body{background-color: rgb(245, 205, 255);}
+    input {
+      display: balck;
+      margin-bottom: 30px;
+    }
+    .center {
+    margin: auto;
+    width: 50%;
+    border: double 3px rgb(121, 35, 201);
+    padding: 10px;
+    text-align: center;
+    
+    background-image:url("cryp.jpg");
+    background-position: right bottom, left top;
+    }
+    h2
+    {font-family: 'Rakkas', cursive;
+     font-size: 30px;
+     color: rgb(87, 7, 161);
+     margin: 10px;
+    }
+    p{
+     color: rgb(0, 0, 0);
+     margin-top: 20px;}
+
+  </style>
+  <body>
+    <div class="center">
+    <h2>MetaCoin ~ Tahani</h2>
+    <p>You have <strong class="balance">loading...</strong> META</p>
+
+    <h2>Send MetaCoin</h2>
+
+    <p><label for="amount">Amount:</label> 
+    <input type="text" id="amount" placeholder="e.g. 95" />
+</p>
+     <p> <label for="receiver">To address:</label>
+    <input
+      type="text"
+      id="receiver"
+      placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+  </p>
+
+    <button onclick="App.sendCoin()">Send MetaCoin</button>
+
+    <p id="status"></p>
+    <p>
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+  </div>
+    <script src="index.js"></script>
+  </body>
+</html>
