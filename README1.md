@@ -11,6 +11,7 @@ Project is created with:
 * Solidity 
 * truffle unbox Webpack
 * javaScript and html
+* node.js
 * metamack
 * openzipplen erc20
 
