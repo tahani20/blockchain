@@ -13,6 +13,7 @@ Project is created with:
 * javaScript and html
 * metamack
 * openzipplen erc20
+
 Some softwares we needed:
 * Remix - Ethereum
 * Visual Studio Code
