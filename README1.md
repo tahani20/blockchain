@@ -18,6 +18,10 @@ Project is created with:
 Some softwares we needed:
 * Remix - Ethereum
 * Visual Studio Code
+
+## System Scenario
+
+
 	
 ## Setup
 To run this project, install it locally using:
