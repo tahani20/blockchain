@@ -4,19 +4,23 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+A new way of funding a project or venture by raising small amounts of money from a large number of people via ethereum blockchain technology without any middleman to function or to manage a user’s information.
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Solidity 
+* truffle unbox Webpack
+* javaScript and html
+* metamack
+* openzipplen erc20
+Some softwares we needed:
+* Remix - Ethereum
+* Visual Studio Code
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd app
+$ npm dev run 
 ```
