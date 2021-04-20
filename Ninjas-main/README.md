@@ -3,7 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [System Scenario](#System Scenario)
+* [System Scenario](#System-Scenario)
 * [Setup](#setup)
 
 ## General info
