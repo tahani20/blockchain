@@ -1,0 +1,100 @@
+
+<html >
+  <center>
+  <head>
+    
+
+
+    
+    <title>Crowdfunding Blockchain</title>
+
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./index.js"></script>    
+  </head>
+ 
+  <style>
+    input {
+      display: block;
+      margin-bottom: 15px;
+  
+    }
+</style>
+
+
+
+    <h1 class="page-header">Crowdfunding</h1>
+
+  
+<div class="row">
+      <div>
+        <h3 class="Create spending request">Create spending request</h3>
+  
+<table>
+              <tr>
+                <td><label for="Description">Description</label> </td>
+                <td>
+                <td>
+                  <input class="form-control" id="string">
+                </td>                          
+              </tr>
+<tr>
+                <td><label for="Value">Value</label> </td>
+                <td>
+                <td>
+                  <input class="form-control" id="integer">
+                </td>                          
+              </tr>
+<tr>
+                <td><label for="Recipieut">Recipieut</label> </td>
+                <td>
+                <td>
+                  <input class="form-control" id="string">
+                </td>                          
+              </tr>
+            </table>
+
+
+
+            <button onclick="App.createRequest()" class="btn btn-primary">deploy</button>
+          
+            <table>
+              <tr>
+                <td><label for="index">index</label> </td>
+                <td>
+                <td>
+                  <input class="form-control" id="string">
+                </td>                          
+              </tr>
+<tr>
+                
+            </table>
+
+
+           
+            <button onclick="App.finalizeRequest()" class="btn btn-primary">transfer</button>
+
+          <button onclick="App.contribute()" class="btn btn-primary">Contribute</button>
+          
+
+          
+  <button onclick="App.getSummary()" class="btn btn-primary">Get Summary</button>
+          <div class="form-group">
+          
+          
+      </div>
+    </div>
+</div>
+
+      
+
+       
+          </div>                
+      
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</center>
+</html>
