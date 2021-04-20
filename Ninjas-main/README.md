@@ -54,7 +54,7 @@ Second: to write fronend with webpack we need to install trufful webpack:
 ```
 $ npx truffle unbox webpack
 ```
-After writing the index.html and index.js write this commands:
+After done index.html and index.js write this commands:
 ```
 $ truffle compile
 $ truffle migrate
