@@ -23,7 +23,7 @@ Some softwares we needed:
 * Visual Studio Code
 
 ## System Scenario
-![](images/
+![](images/systemArchitecture.png)
 
 	
 ## Setup
