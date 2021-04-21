@@ -1,24 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-/*contract CampaignFactory{
-    // ==== Fields ====
-    address[] public deployedCampaigns;
-    address contractOwner;
-    constructor(){
-    contractOwner = msg.sender;     
-    }
-    // ==== Modifier ====
-    // ==== create a new contract ====
-    function createCampaign(uint minimum) public  {
-        require(contractOwner == msg.sender, "Only onwer");
-        address newCampaign =address (new Campaign(minimum,msg.sender));
-        deployedCampaigns.push(newCampaign);
-    }
-    // ==== returning all the address of the deployed contract
-    function getDeployedCampaigns() public view returns (address[]memory){
-        return deployedCampaigns;
-    }
-}*/
+
 contract Campaign{
         //erc20 function start from here
     mapping (address => uint256) private _balances;

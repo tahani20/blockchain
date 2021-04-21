@@ -19,9 +19,9 @@ Project is created with:
 * javaScript and html
 * node.js
 * metamack
-* openzipplen erc20
+* openzipplen ERC20
 
-Some softwares we needed:
+Some software we needed:
 * Remix - Ethereum
 * Visual Studio Code
 
@@ -36,29 +36,28 @@ Some softwares we needed:
 	
 ## Setup
 To run this project:
-First "test" the smart contract
-Write in the terminal of VS the following commands:
+first "test" the smart contract
+write in the terminal of VS the following commands:
 
-To initiat truffle folders:
+To initiate  truffle folders:
 ```
 $ truffle init
 ```
-After upload the smart contract and test.js write this commands:
+Second: to write frontend  with webpack we need to install truffle webpack:
+```
+$ npx truffle unbox webpack
+```
+After upload the smart contract and test.js write these  commands:
 ```
 $ truffle develop
 $ migrate --reset
 $ test
 ```
-
-Second: to write fronend with webpack we need to install trufful webpack:
-```
-$ npx truffle unbox webpack
-```
-After done index.html and index.js write this commands:
+After done index.html and index.js write these  commands:
 ```
 $ truffle compile
 $ truffle migrate
 $ truffle test
 $ cd app
-$ npm dev run 
+$ npm run dev
 ```

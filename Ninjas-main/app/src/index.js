@@ -30,14 +30,14 @@ const App = {
 
 
   createRequest: async function() {
-    const _description= document.getElementById("Description");
-    const _value= document.getElementById("Value");
-    const  _recipient= document.getElementById("Recipieut");
-    this.setStatus("Initiating transaction... (please wait)");
+    const _description= document.getElementById("Description").value;
+    const _value= parseInt(document.getElementById("Value").value);
+    const  _recipient= document.getElementById("Recipieut").value;
+    
 
     const { createRequest } = this.meta.methods;
-    await createRequest(_description, _value,_recipient).send({ from: this.account });
-
+    await createRequest(_description,_value,_recipient).send({ from: this.account });
+    this.setStatus("Initiating transaction... (please wait)");
    
   },
 
@@ -70,7 +70,7 @@ const App = {
     this.setStatus("Initiating transaction... (please wait)");
 
     const { getSummary } = this.meta.methods;
-    await getSummary().send({ from: this.account });
+    await getSummary().call({ from: this.account });
 
    
   },
@@ -96,7 +96,7 @@ window.addEventListener("load", function() {
     );
     // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
     App.web3 = new Web3(
-      new Web3.providers.HttpProvider("http://127.0.0.1:8545"),
+      new Web3.providers.HttpProvider("http://127.0.0.1:7545"),
     );
   }
 
