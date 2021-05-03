@@ -8,7 +8,7 @@
 * [Setup](#setup)
 
 ## General info
-Defi unpermissioned platform of funding a project or venture by raising small amounts of money from a large number of people via ethereum blockchain technology without any middleman to function or to manage a user’s information.
+Defi "Decentralized Finance" unpermissioned platform for funding a project or venture by raising small amounts of money from a large number of people via ethereum blockchain technology without any middleman to function or to manage a user’s information.
 
 The campaign creators will post their project ideas in the campaign and the interested people will donate the fund to the project idea. Money is stored securely so all ether coins will be recorded and keep track in the blockchain. Where the blockchain is an immutable ledger. All transactions made through blockchain are recorded so there is no way to fraud. See  [System Scenario](#System-Scenario) for more illustration.
 	
